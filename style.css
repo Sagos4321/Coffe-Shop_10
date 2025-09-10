@@ -1,0 +1,70 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    margin-left: 45px;
+}
+
+.kepuasan{
+    margin-left: 45px;
+    margin-bottom: 85px;
+}
+
+.container-testimoni{
+    height: 100px;
+    display: flex;
+}
+
+.testimoni-pelanggan{
+    width: 35%;
+    margin-right: 45px;
+    margin-left:  45px;
+}
+
+.star{
+    width: 6%;;
+    height: 20%;
+}
+
+.image_user{
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+}
+
+.bar-bawah{
+    margin-top: 270px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.link-bar-bawah{
+    margin-left: 150px;
+}
+.ikon-bawah{
+    height: 20px;
+    width: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.garis{
+    background-color: black;
+    height: 2px;
+    width: 90%;
+    margin: 40px 5%;
+}
+
+.sdk{
+    justify-content: center;
+    color: black;
+}
+
