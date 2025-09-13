@@ -635,21 +635,24 @@ footer {
 }
 
 .ikon-bar-bawah img {
-  width: 22px;
-  margin: 0 6px;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
 }
 
 .garis {
   border-top: 1px solid #333;
   width: 100%; /* pastikan full */
-  margin: 5px 0;
+  margin: 5px 0 30px;
 }
 
-.sdk {
+.sdk { /*syarat dan ketentuan*/
+    display: flex;
+    justify-content: center;
   text-align: center;
   font-size: 13px;
   color: #444;
-  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 .sdk a {
