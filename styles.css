@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Login Layout === */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  flex: 1;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-family: cursive;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0 0 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #333;
+}
+
+.forgot {
+  font-size: 12px;
+  margin: 5px 0 15px;
+  color: blue;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px;
+  margin-top: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-google {
+  padding: 10px;
+  margin-top: 10px;
+  background: white;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.bottom-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: auto;
+  font-size: 12px;
+}
+
+/* === Signup Page === */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.signup-box {
+  border: 1px solid #333;
+  padding: 30px;
+  width: 300px;
+  text-align: left;
+}
